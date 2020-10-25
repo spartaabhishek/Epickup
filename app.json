@@ -21,6 +21,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.spartaabhishek.Epickup",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyANKxmMtNvnwL9LtLV3M_Gv0sN4_bivxQc"
+        }
     }
   }
-}
+  }}
