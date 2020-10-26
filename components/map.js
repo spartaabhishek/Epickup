@@ -78,7 +78,7 @@ export default class MapComponent extends React.Component {
   async getData(){
     Keyboard.dismiss()
     if(this.state.text!=""){
-    await fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${this.state.text},${this.state.city},india.json?access_token=pk.eyJ1Ijoic3BhcnRhYWJoaXNoZWsiLCJhIjoiY2tnYW5rYnQ5MDh2YTJ0czVpamJwamowdCJ9.yMjF3RjImdw0Gof8FPRM4A&limit=1`)
+    await fetch(`your mapbox key`)
     .then((res)=>res.json())
     .then((data)=>{
       console.log(data)
